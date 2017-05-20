@@ -1,11 +1,27 @@
 {
     "name": "mongoose-express-error-handler",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Mongoose Express error handler plugin.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmtvms/mongoose-express-error-handler.git"
+    },
     "author": "João Miguel",
-    "license": "ISC"
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jmtvms/mongoose-express-error-handler/issues"
+    },
+    "homepage": "https://github.com/jmtvms/mongoose-express-error-handler",
+    "keywords": [
+        "mongoose",
+        "express",
+        "error",
+        "status code",
+        "http status",
+        "plugin"
+    ]
 }
