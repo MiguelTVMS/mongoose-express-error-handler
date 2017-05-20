@@ -5,6 +5,10 @@ module.exports = (err, req, res, next) => {
         return;
     }
 
+    if (err.status && isFinite(err.status)) {
+        handleHttpStatusCode(err, res, next);
+    }
+
     switch (err.name) {
     case 'ValidationError':
         handleValidationError(err, res);
@@ -31,6 +35,14 @@ function handleMongoError(err, res, next) {
         next(err);
         break;
     }
+
+}
+
+function handleHttpStatusCode(err, res, next) {
+
+    if (err.status > 500) next(err);
+
+    res.sendStatus(err.status);
 
 }
 

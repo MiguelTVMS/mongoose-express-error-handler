@@ -1,7 +1,7 @@
 {
     "name": "mongoose-express-error-handler",
-    "version": "1.0.0",
-    "description": "",
+    "version": "1.1.0",
+    "description": "Mongoose Express error handler plugin.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
