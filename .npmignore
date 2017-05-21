@@ -1,0 +1,21 @@
+#Visual studio code configurarion folder
+.vscode
+
+#Already packed files
+*.tgz
+
+#This file
+.npmignore
+
+#Git files
+.git*
+
+#Typings for nodejs intellisense in Visual Studio Code
+typings*
+*.d.ts
+
+#gitEye file
+/.project
+
+#travis compilation information
+*.yml
