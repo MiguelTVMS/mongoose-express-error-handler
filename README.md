@@ -15,14 +15,3 @@ const express = require('express');
 const app = express();
 app.use(mongooseExpressErrorHandler);
 ```
-
-## Version history.
-
-### 1.1.1
- - Added this documentation.
-
-### 1.1.0
- - Simpler handle to express "SyntaxError". It will be inproved.
-
-### 1.0.0
- - Handle the mongoose validation errors and cast errors.
